@@ -32,7 +32,7 @@ The startup will be automated in the future, but for now it's manual :).
 After this you should be able to access the web console on [http://localhost:50070](http://localhost:50070), and see one datanode
 
 ## Hadoop examples
-该 Repository 的核心代码主要来自于<Pro Apache Hadoop, Second Edition 2014/09/03> (ISBN 978-1-4302-4863-7).
+该 Repository 的核心代码主要来自于(Pro Apache Hadoop, Second Edition 2014/09/03) (ISBN 978-1-4302-4863-7).
 
 ###TODO
 1. Create startup scripts for the master and slaves.
