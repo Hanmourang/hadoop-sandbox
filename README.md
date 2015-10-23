@@ -17,6 +17,8 @@ Each box has 4 cores, 4GB of RAM and 40GB of disk. The storage can be increased 
 * Vagrant (tested on 1.7.1).
 * A Linux variant or osx (this might work on cygwin).
 * A PC with +12GB of RAM for one master and one slave. Add 4GB per extra slave.
+* 元数据下载地址：http://stat-computing.org/dataexpo/2009/the-data.html
+*                 http://stat-computing.org/dataexpo/2009/supplemental-data.html
 
 ## How to run
 1. Run `setup.sh`. This will create a set of ssh keys to allow Hadoop to ssh to the slaves. This will also create a local instalation of Hadoop (to allow you copy files via hdfs)
@@ -30,7 +32,7 @@ The startup will be automated in the future, but for now it's manual :).
 After this you should be able to access the web console on [http://localhost:50070](http://localhost:50070), and see one datanode
 
 ## Hadoop examples
-The code of the examples is taken from the great book Pro Apache Hadoop by Sameer Wadkar and Madhu Siddalingaiah (ISBN 978-1-4302-4863-7).
+该 Repository 的核心代码主要来自于<Pro Apache Hadoop, Second Edition 2014/09/03> (ISBN 978-1-4302-4863-7).
 
 ###TODO
 1. Create startup scripts for the master and slaves.
